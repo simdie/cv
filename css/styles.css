@@ -55,6 +55,11 @@ hr {
     
 }
 
+.mountain-img {
+    width: 50%;
+}
+
+
 .pythonc {
     text-decoration: underline;
 }
@@ -119,12 +124,13 @@ a:hover {
 
 .bottom-cloud {
     position: absolute;
-    left: 250px;
+    left: 340px;
 }
 
 .top-cloud {
-    position: relative;
-    left: 350px;
+    position: absolute;
+    right: 350px;
+    top: 40px;
 }
 
 .skill-row {

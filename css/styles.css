@@ -351,20 +351,20 @@ hr {
         text-align: center;
         padding-right: 10px;
         margin-right: 50px;
-        margin-left: 90px;
-        width: 70%;
+        margin-left: 55px;
+        width: 80%;
     }
 
     .skill-row2{
         text-align: left;
         
-        margin-left: 90px;
-        width: 70%
+        margin-left: 55px;
+        width: 80%
     }
 
     .skill-row1 {
         text-align: right;
-        margin-right: 50px;
+        margin-right: 70px;
     }
 
 

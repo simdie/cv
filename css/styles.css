@@ -37,6 +37,10 @@ h2{
 }
 
 
+.tevis-img2 {
+    display: none;
+}
+
 
 /*************H3**************/
 h3{
@@ -91,10 +95,10 @@ a:hover {
 
 .top-container {
     margin-top: 0px;
-    margin-left: 350px;
-    margin-right: 50px;
-    margin-bottom: 100px;
-    padding-top: 110px;
+    width: 60%;
+    padding-left: 30%;
+    margin-bottom: 10%;
+    padding-top: 105px;
     text-align: left;
     
 }
@@ -126,7 +130,6 @@ a:hover {
 .fa {
     padding: 20px;
     font-size: 350px;
-    width: 30px;
     text-align: center;
     text-decoration: none;
     margin:25px 10px;
@@ -168,12 +171,25 @@ a:hover {
 /*************2nd-container**************/
 
 .second-container {
+    width: 83%;
     margin-top: 10px;
-    margin-left: 350px;
-    margin-right: 50px;
+    margin-left: 8%;
+    margin-right: 0px;
     margin-bottom: 100px;
     padding-top: 50px;
+    padding-left: 8%;
+    padding-right: 0px;
     
+}
+
+.third-container {
+    padding-left: 20%;
+    padding-top: 2%;
+    padding-bottom: 10%;
+}
+
+.sub-heading {
+    padding: 5px 10px;
 }
 
 .skill-row {
@@ -181,6 +197,8 @@ a:hover {
     margin: 100px auto 100px auto;
     text-align: left;  
 }
+
+
 
 .python-img {
     width: 25%;
@@ -254,19 +272,141 @@ hr {
 
 /*************BODY**************/
 
-.weather-appp {
-    margin-top: 10px;
-    margin-left: 350px;
-    margin-right: 50px;
-    margin-bottom: 100px;
-    padding-top: 50px;
+
+
+
+
+/*************MEDIA QUERY**************/
+
+@media (max-width: 950px) {
+
+    .header-component {
+        display: none;
+    }
+
+    .tevis-img2 {
+        display: flex;
+        width: 20%;
+        position: fixed;
+        border:#c25d2e solid 8px;
+        border-radius: 100%;
+        background-color: #af3f0a;
+        top: 3%;
+        left: 0%;
+        z-index: 1;   
+    }
+
+    /* .tevis-name {
+        padding-left: 34%;
+        padding-top: 4%;
+    } */
+
+    .sub-heading {
+        padding: 5% 10%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    .top-container {
+        text-align: center;
+        position: relative;
+        top: 2px;
+        padding: 2px 3px;
+        width: 100%;
+     
+    }
+
+    .second-container {
+        width: 83%;
+        margin-top: 10px;
+        margin-left: 4%;
+        margin-right: 0px;
+        margin-bottom: 100px;
+        padding-top: 50px;
+        padding-left: 4%;
+        padding-right: 0px;
+        
+    }
+
+    .third-container {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 10%;
+        padding-bottom: 15%;
+    }
+
+    .contact-me {
+        text-align: center;
+        padding-left: 1%;
+    }
+
+    .skill-heading {
+        padding-left: 20%;
+        letter-spacing: 0.2rem;
+        color: #af3f0a;
+    }
+
+    .skill-row {
+        text-align: center;
+        padding-right: 10px;
+        margin-right: 50px;
+        margin-left: 90px;
+        width: 70%;
+    }
+
+    .skill-row2{
+        text-align: left;
+        
+        margin-left: 90px;
+        width: 70%
+    }
+
+    .skill-row1 {
+        text-align: right;
+        margin-right: 50px;
+    }
+
+
+    .about-tevis {
+        padding: 2%  10%;
+    }
+
+    .skills {
+        text-align: center;
+        width: 100%;
+    }
+
+    .social-icon {
+        text-align: center;
+    }
+
+    hr {
+        border: dotted #af3f0a 1px;
+        border-bottom: none;
+        
+        margin: 5% auto;
+    }
+   
+    .copyright {
+        text-align: center;
+        padding: 20px 0px 30px;
+        
+        
+    }
+
+   
+
+    .fa {
+        
+        font-size: 350px;
+        text-align: center;
+        text-decoration: none;
+        margin:30px 10px 0px;
+        border-radius: 50%;
+        width: 3%;
+
+    }
 }
 
 
-/*************BODY**************/
-
-
-/*************BODY**************/
-
-
-/*************BODY**************/

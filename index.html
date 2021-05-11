@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Welcome to Tevis Lucas Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
     
@@ -21,8 +21,8 @@
 <body>
 
     <!----------------HEADER-COMPONENT START-------------------->
-    <div class="header-component">
-        <img class="tevis-img" src="images/tevis.png" alt="tevis-img">
+     <div class="header-component">
+        <img id="tevis-img2" class="tevis-img" src="images/tevis.png" alt="tevis-img">
         <div class="left-nav-bottons">
            <h3> 
                <p class="">
@@ -30,23 +30,20 @@
                     <a href="#skills-section">SKILLS</a><br>
                     <a href="#contact">CONTACT</a><br>
                     
-                    
-
-               </p>
+                </p>
             </h3>
-
         </div>
         
 
-    </div>
+      </div>
     <!----------------HEADER-COMPONENT END-------------------->
 
-
+    <img class="tevis-img2" src="images/tevis.png" alt="tevis-img2">
 
     <!----------------TOP CONTAINER START-------------------->
     <div id="about-us"  class="top-container">
-        <h1>TEVIS <span class="font-name">LUCAS</span></h1>
-        <h2>PUSHKIN STREET - SAINT PETERSBURG, RUSSIAN FEDERATION   +7(952) 395-9562 -  <a class="mailto" 
+        <h1 class="tevis-name">TEVIS <span class="font-name">LUCAS</span></h1>
+        <h2 class="sub-heading">PUSHKIN STREET - SAINT PETERSBURG, RUSSIAN FEDERATION   +7(915) 396-6470   <a class="mailto" 
              href="mailto:sbcheref@gmail.com">SBCHEREF@GMAIL.COM</a></h2> 
         <div>
             <p class="about-tevis">
@@ -61,17 +58,18 @@
             </p>
         </div>
 
-        <div>
+          <div class="social-icon">
             
             <a href="https://twitter.com/Lucas33258038" class="fa fa-twitter"></a>
             <a href="http://linkedin.com/in/engr-l-574a89154/" class="fa fa-linkedin"></a>
             <a href="https://www.instagram.com/lulextech/" class="fa fa-instagram"></a>
             <a href="https://github.com/simdie" class="fa fa-github"></a>
-        </div>
+          </div>
 
         
 
     </div>
+
     <hr>
     <!----------------TOP CONTAINER END---------------------->
 
@@ -81,13 +79,13 @@
     <div  id="skills-section" class="second-container">
         
         <div   class="skills">
-          <h2>MY SKILLS</h2>
-          <div class="skill-row">
+          <h2 class="skill-heading">MY SKILLS</h2>
+          <div class="skill-row skill-row1">
             <img class="python-img" src="images/python.png" alt="python-developer">
             <h2>I'm a Python Lover</h2>
             <p>I develop Web Apps Backend with Python technology and Frontends with React framework</p>
           </div>
-          <div class="skill-row">
+          <div class="skill-row skill-row2">
             <img class="react-img" src="images/react.png" alt="react-developer">
             <!--<img class="add-img" src="images/add.png" alt="add-img">
             <img class="flutter-img" src="images/flutter.png" alt="flutter-img">-->
@@ -96,10 +94,10 @@
           </div>
         </div>
         
-        
     </div>
+
     <hr>
-    <div  id="contact" class="second-container">
+    <div  id="contact" class="third-container">
         <div class="contact-me">
             <h2>Let's Connect</h2>
             <p class="contact-message">I'm Currently open to any software projects, freelancing work. Got a Nice idea or Project ? Drop me an Email</p>
